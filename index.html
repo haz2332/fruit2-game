@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir = "ltr">
+  <head>
+
+<meta charset="utf-8">
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<!---- Your web app's Firebase configuration-->
+<!----- For Firebase JS SDK v7.20.0 and later, measurementId is optional-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyAdm1oZv_04jOVUzLLIlMl1MzMAIL18l3U",
+  authDomain: "fruit-4de3e.firebaseapp.com",
+  databaseURL: "https://fruit-4de3e-default-rtdb.firebaseio.com",
+  projectId: "fruit-4de3e",
+  storageBucket: "fruit-4de3e.appspot.com",
+  messagingSenderId: "648727683602",
+  appId: "1:648727683602:web:b7d8dfef00d21d7f86eecb",
+  measurementId: "G-7GRFPZBZEX"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
+</script>
+  
+  
+
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body>
+</html>
